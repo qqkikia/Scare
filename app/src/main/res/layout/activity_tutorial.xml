@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/gamebackground"
+    tools:context="com.pillow.mohamedaliaddi.scaryy.Tutorial$PlaceholderFragment"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center_horizontal">
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pagers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/imageView">
+    </android.support.v4.view.ViewPager>
+
+        <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/circle"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
